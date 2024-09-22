@@ -1,0 +1,232 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.InfraEstrutura\\Kraken.InfraEstrutura.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.CrossCutting\\Kraken.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.CrossCutting\\Kraken.CrossCutting.csproj",
+        "projectName": "Kraken.CrossCutting",
+        "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.CrossCutting\\Kraken.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\anderson.peluso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\anderson.peluso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.Dominio\\Kraken.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.Dominio\\Kraken.Dominio.csproj",
+        "projectName": "Kraken.Dominio",
+        "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.Dominio\\Kraken.Dominio.csproj",
+        "packagesPath": "C:\\Users\\anderson.peluso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\anderson.peluso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.InfraEstrutura\\Kraken.InfraEstrutura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.InfraEstrutura\\Kraken.InfraEstrutura.csproj",
+        "projectName": "Kraken.InfraEstrutura",
+        "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.InfraEstrutura\\Kraken.InfraEstrutura.csproj",
+        "packagesPath": "C:\\Users\\anderson.peluso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.InfraEstrutura\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\anderson.peluso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.CrossCutting\\Kraken.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.CrossCutting\\Kraken.CrossCutting.csproj"
+              },
+              "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.Dominio\\Kraken.Dominio.csproj": {
+                "projectPath": "C:\\Users\\anderson.peluso\\Desktop\\Desafio\\src\\Kraken.Dominio\\Kraken.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Dapper.SimpleCRUD": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0-preview.2.24128.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.0-preview.2.24128.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

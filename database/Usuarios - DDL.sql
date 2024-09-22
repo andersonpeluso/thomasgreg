@@ -1,0 +1,8 @@
+CREATE TABLE Usuarios (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Nome NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(255) NOT NULL UNIQUE,
+    Senha NVARCHAR(255) NOT NULL,
+    Status BIT NOT NULL DEFAULT 1, -- 1 para ativo, 0 para inativo
+    DataCadastro DATETIME NOT NULL DEFAULT GETDATE()
+);

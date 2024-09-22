@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kraken.API</name>
+    </assembly>
+    <members>
+        <member name="M:Kraken.API.Controllers.EnderecoController.ConsultarCEPAsync(System.String)">
+            <summary>
+            Consulta informações do endereço através do CEP.
+            </summary>
+            <param name="cep">CEP</param>
+            <returns>ActionResult</returns>
+            <response code="200">Retorna todas as informações referente ao endereço.</response>
+            <response code="404">Retorna caso o endereço não seja encontrado.</response>
+            <response code="500">Retorna para erro interno.</response>
+        </member>
+        <member name="M:Kraken.API.Controllers.NotaFiscalController.ObterDetalheAsync(System.String)">
+            <summary>
+            Busca todas as informações da nota fiscal.
+            </summary>
+            <param name="qrCode">Qr Code</param>
+            <returns>ActionResult</returns>
+            <response code="200">Retorna todas as informações referente a nota fiscal.</response>
+            <response code="404">Retorna caso a nota fiscal não seja encontrado.</response>
+            <response code="500">Retorna para erro interno.</response>
+        </member>
+        <member name="M:Kraken.Api.IoC.InjecaoDependencia.AdicionarServicos(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Injetar dependências.
+            </summary>
+            <param name="services">Serviços</param>
+            <param name="configuration">Configuração</param>
+            <returns></returns>
+        </member>
+        <member name="M:Kraken.Api.IoC.InjecaoDependencia.LerArquivoConfiguracao(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Ler arquivos de configuração.
+            </summary>
+            <param name="services">Serviço</param>
+            <param name="configuration">Configuração</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

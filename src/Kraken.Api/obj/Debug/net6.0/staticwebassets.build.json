@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nKZbTDIfT+RqLamjy8a5P90/FO2gsxG9kq8KbeYVjLY=",
+  "Source": "Kraken.API",
+  "BasePath": "_content/Kraken.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

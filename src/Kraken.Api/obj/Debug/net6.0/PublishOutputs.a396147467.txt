@@ -1,0 +1,15 @@
+C:\Private\github\ENGESOFT.Api\ENGESOFT.Api\obj\Debug\net6.0\PubTmp\Out\EngeSoft.API.exe
+C:\Private\github\ENGESOFT.Api\ENGESOFT.Api\obj\Debug\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Private\github\ENGESOFT.Api\ENGESOFT.Api\obj\Debug\net6.0\PubTmp\Out\appsettings.json
+C:\Private\github\ENGESOFT.Api\ENGESOFT.Api\obj\Debug\net6.0\PubTmp\Out\EngeSoft.API.dll
+C:\Private\github\ENGESOFT.Api\ENGESOFT.Api\obj\Debug\net6.0\PubTmp\Out\EngeSoft.API.deps.json
+C:\Private\github\ENGESOFT.Api\ENGESOFT.Api\obj\Debug\net6.0\PubTmp\Out\EngeSoft.API.runtimeconfig.json
+C:\Private\github\ENGESOFT.Api\ENGESOFT.Api\obj\Debug\net6.0\PubTmp\Out\EngeSoft.API.pdb
+C:\Private\github\ENGESOFT.Api\ENGESOFT.Api\obj\Debug\net6.0\PubTmp\Out\AspNetCoreRateLimit.dll
+C:\Private\github\ENGESOFT.Api\ENGESOFT.Api\obj\Debug\net6.0\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Private\github\ENGESOFT.Api\ENGESOFT.Api\obj\Debug\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Private\github\ENGESOFT.Api\ENGESOFT.Api\obj\Debug\net6.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Private\github\ENGESOFT.Api\ENGESOFT.Api\obj\Debug\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Private\github\ENGESOFT.Api\ENGESOFT.Api\obj\Debug\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Private\github\ENGESOFT.Api\ENGESOFT.Api\obj\Debug\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Private\github\ENGESOFT.Api\ENGESOFT.Api\obj\Debug\net6.0\PubTmp\Out\EngeSoft.API.xml

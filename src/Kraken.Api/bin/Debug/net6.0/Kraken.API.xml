@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kraken.API</name>
+    </assembly>
+    <members>
+        <member name="M:Kraken.API.Controllers.ClienteController.AdicionarAsync(Kraken.Aplicacao.ViewModel.ClienteVM)">
+            <summary>
+            Inserir um novo registro no sistema.
+            </summary>
+            <param name="model">View Model</param>
+            <returns>ActionResult</returns>
+            <response code="201">Objeto criado.</response>
+            <response code="406">Caso não seja informado o e-mail.</response>
+            <response code="500">Retorna para erro interno.</response>
+        </member>
+        <member name="M:Kraken.API.Controllers.ClienteController.EditarAsync(Kraken.Aplicacao.ViewModel.ClienteVM)">
+            <summary>
+            Modificar ou ajustar um registro existente no sistema.
+            </summary>
+            <param name="model">View Model</param>
+            <returns></returns>
+            <response code="200">Objeto editado.</response>
+            <response code="500">Retorna para erro interno.</response>
+        </member>
+        <member name="M:Kraken.API.Controllers.ClienteController.BuscarAsync">
+            <summary>
+            Recuperar todos os registros armazenados no sistema.
+            </summary>
+            <returns></returns>
+            <response code="200">Resultado esparado.</response>
+            <response code="500">Retorna para erro interno.</response>
+        </member>
+        <member name="M:Kraken.API.Controllers.ClienteController.BuscarAsync(System.Int32)">
+            <summary>
+            Recuperar um único registro no sistema usando o ID.
+            </summary>
+            <returns></returns>
+            <response code="200">Resultado esparado.</response>
+            <response code="500">Retorna para erro interno.</response>
+        </member>
+        <member name="M:Kraken.API.Controllers.ClienteController.RemoverAsync(System.Int32)">
+            <summary>
+            Excluir permanentemente um registro do sistema.
+            </summary>
+            <param name="id">Identificador</param>
+            <returns></returns>
+            <response code="200">Resultado esparado.</response>
+            <response code="500">Retorna para erro interno.</response>
+        </member>
+        <member name="M:Kraken.API.Controllers.LogradouroController.AdicionarAsync(Kraken.Aplicacao.ViewModel.LogradouroVM)">
+            <summary>
+            Inserir um novo registro no sistema.
+            </summary>
+            <param name="model">View Model</param>
+            <returns>ActionResult</returns>
+            <response code="201">Objeto criado.</response>
+            <response code="500">Retorna para erro interno.</response>
+        </member>
+        <member name="M:Kraken.API.Controllers.LogradouroController.EditarAsync(Kraken.Aplicacao.ViewModel.LogradouroVM)">
+            <summary>
+            Modificar ou ajustar um registro existente no sistema.
+            </summary>
+            <param name="model">View Model</param>
+            <returns></returns>
+            <response code="200">Objeto editado.</response>
+            <response code="500">Retorna para erro interno.</response>
+        </member>
+        <member name="M:Kraken.API.Controllers.LogradouroController.BuscarAsync">
+            <summary>
+            Recuperar todos os registros armazenados no sistema.
+            </summary>
+            <returns></returns>
+            <response code="200">Resultado esparado.</response>
+            <response code="500">Retorna para erro interno.</response>
+        </member>
+        <member name="M:Kraken.API.Controllers.LogradouroController.BuscarAsync(System.Int32)">
+            <summary>
+            Recuperar um único registro no sistema usando o ID.
+            </summary>
+            <returns></returns>
+            <response code="200">Resultado esparado.</response>
+            <response code="500">Retorna para erro interno.</response>
+        </member>
+        <member name="M:Kraken.API.Controllers.LogradouroController.RemoverAsync(System.Int32)">
+            <summary>
+            Excluir permanentemente um registro do sistema.
+            </summary>
+            <param name="id">Identificador</param>
+            <returns></returns>
+            <response code="200">Resultado esparado.</response>
+            <response code="500">Retorna para erro interno.</response>
+        </member>
+        <member name="M:Kraken.API.Controllers.OAuthController.Autenticar(System.String,System.String)">
+            <summary>
+            Gera o token de acesso.
+            </summary>
+            <param name="usuario">Nome do usuário</param>
+            <param name="chave">identificação única do usuário</param>
+            <returns>ActionResult</returns>
+            <response code="200">Retorna token de acesso.</response>
+            <response code="400">Retorna caso usuário e a chave não seja informado.</response>
+            <response code="404">Retorna caso usuário e a chave sejam encontrado.</response>
+        </member>
+        <member name="M:Kraken.Api.IoC.InjecaoDependencia.AdicionarServicos(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Injetar dependências.
+            </summary>
+            <param name="services">Serviços</param>
+            <param name="configuration">Configuração</param>
+            <returns></returns>
+        </member>
+        <member name="M:Kraken.Api.IoC.InjecaoDependencia.LerArquivoConfiguracao(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Ler arquivos de configuração.
+            </summary>
+            <param name="services">Serviço</param>
+            <param name="configuration">Configuração</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
